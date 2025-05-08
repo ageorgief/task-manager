@@ -1,0 +1,32 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""users"""
+type Task {
+  _id: ID!
+  title: String!
+  description: String!
+  status: String!
+  dueDate: DateTime!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Query {
+  getUserById(id: String!): Task!
+}
+
+type Mutation {
+  createTask(createTask: CreateTaskDTO!): Task!
+}
+
+input CreateTaskDTO {
+  title: String!
+  status: String!
+  description: String!
+  dueDate: DateTime!
+}
