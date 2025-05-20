@@ -1,4 +1,4 @@
-📘 Task Manager API – NestJS + GraphQL
+# 📘 Task Manager API – NestJS + GraphQL
 
 A backend project built with NestJS and GraphQL to manage tasks. It includes environment configuration, MongoDB integration with Mongoose, input validation, and a modular structure designed for scalability.
 
