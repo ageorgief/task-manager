@@ -48,7 +48,7 @@ pnpm install
 ### 2. Environment Variables
 Create a .env file at the passing the port on which the backend should run and the url for the database connection. The variables which has to be set can be seen in .env.example
 
-### Run the App
+### 3.Run the App
 ```bash
 npm run start:dev
 ```
